@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg
+*.whl
+
+# Virtual environments
+.env/
+venv/
+env/
+# other common virtual environment names...
+
+# Local Database
+*.sqlite3
+db.sqlite
+
+# Environment variables
+.env
+.flaskenv
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Testing and coverage
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Static and media files (if managed by a build process and not committed to git)
+# Uncomment the following lines if you do not want to track these files in git
+# /static/
+# /media/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Deployment
+*.tar.gz
+*.zip
